@@ -1,7 +1,7 @@
 {
   "name": "wipebot",
   "displayName": "Wipebot",
-  "version": "31c96d04",
+  "version": "e764900d",
   "description": "World of Warcraft raid analysis for any guild: why a pull wiped, how a night went, how a player did, from Warcraft Logs, with the method for reading them.",
   "author": { "name": "Wipebot", "url": "https://wipebot.enfo.dev" },
   "homepage": "https://wipebot.enfo.dev",
