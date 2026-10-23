@@ -1,0 +1,38 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "wipebot",
+  "version": "0.5.0+ec670cb7",
+  "description": "World of Warcraft raid analysis for any guild, from Warcraft Logs: why a pull wiped, how a night went, how a player did, with the method for reading them.",
+  "author": {
+    "name": "Wipebot",
+    "url": "https://wipebot.enfo.dev"
+  },
+  "homepage": "https://wipebot.enfo.dev",
+  "keywords": [
+    "world-of-warcraft",
+    "warcraft-logs",
+    "raiding",
+    "raid-analysis"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Wipebot",
+        "shortDescription": "World of Warcraft raid analysis for any guild, from Warcraft Logs.",
+        "longDescription": "Ask why a pull wiped, how a raid night went, what keeps wiping the raid, or how a player did and why their damage or healing is low. The Wipebot connector reads the reports from Warcraft Logs and computes every number in code; the raid-log-analysis skill says how to read them. Sign in with your Warcraft Logs account.",
+        "developerName": "Wipebot",
+        "category": "Productivity",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://wipebot.enfo.dev",
+        "privacyPolicyURL": "https://wipebot.enfo.dev/privacy",
+        "defaultPrompt": [
+          "Why did we wipe on the last pull?",
+          "How did I do on this boss tonight?",
+          "How did tonight's raid go?"
+        ]
+      }
+    }
+  }
+}
