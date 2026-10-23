@@ -11,10 +11,10 @@ marketplace's **Refresh** updates it at once.
 
 In Claude Code: `/plugin marketplace add Enf0/wipebot-plugin`, then `/plugin install wipebot@wipebot`.
 
-In the ChatGPT desktop app or Codex: Plugins → **Add** → **Add plugin marketplace**, enter `Enf0/wipebot-plugin` (or
-`codex plugin marketplace add Enf0/wipebot-plugin`), then install Wipebot from the Plugins directory and sign in with Warcraft Logs. A ChatGPT workspace admin can import it for the workspace instead:
-Admin Console → Plugins → Add → Import marketplace, with `https://github.com/Enf0/wipebot-plugin` as the source; it syncs daily.
-ChatGPT marks a plugin with an MCP server "Desktop only", so in ChatGPT on the web or a phone add https://wipebot.enfo.dev/mcp as a
-custom connector instead (the tools without the skill).
+In Codex, also Codex inside the ChatGPT desktop app: Plugins → **Add** → **Add plugin marketplace**, enter `Enf0/wipebot-plugin`
+(or `codex plugin marketplace add Enf0/wipebot-plugin`), install Wipebot, then sign in to its server under Plugins → **MCPs**. A
+ChatGPT workspace admin can import it for the workspace: Admin Console → Plugins → Add → Import marketplace, with
+`https://github.com/Enf0/wipebot-plugin` as the source. ChatGPT's chats, on the web, a phone or the desktop app, don't run a
+plugin's server: there add https://wipebot.enfo.dev/mcp as a custom connector (the tools without the skill).
 
 Made with [Wipebot](https://github.com/Enf0/wipebot): `wipebot plugin DIR` writes this repository.
