@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "Wipebot": {
+      "type": "http",
+      "url": "https://wipebot.enfo.dev/mcp"
+    }
+  }
+}
