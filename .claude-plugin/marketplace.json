@@ -1,0 +1,17 @@
+{
+  "name": "wipebot",
+  "owner": {
+    "name": "Wipebot",
+    "url": "https://wipebot.enfo.dev"
+  },
+  "metadata": {
+    "description": "Wipebot, World of Warcraft raid analysis for any guild, as a Claude plugin."
+  },
+  "plugins": [
+    {
+      "name": "wipebot",
+      "source": "./plugins/wipebot",
+      "description": "World of Warcraft raid analysis for any guild, from Warcraft Logs."
+    }
+  ]
+}
