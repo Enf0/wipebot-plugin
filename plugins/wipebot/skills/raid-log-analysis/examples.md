@@ -1,49 +1,42 @@
 # Worked examples
 
-Three questions on one Mythic night of The Twin Fangs (26 pulls, no kill), each as what was asked, what the tools
-showed, how to read it, and what the answer says. The numbers are the tools'; how a mechanic works comes from
-`boss_guide`, read before judging it.
+Three questions on three bosses: what the tools showed, how to read it, what the answer holds.
 
-## A pull: "Why did we wipe on pull 26?"
+## A pull: "Why did we wipe on Vashnik pull 16?"
 
-What the tools showed (`pull_summary`): the best wipe of the night, 59.1% at 3:15. "Ended by": Caustic Globule killed 4
-in pulses from 2:58, then half the raid was dead at 3:10; before it, 5 deaths one after another from 1:20 (Agonco to
-Caustic Globule, Martin to Eternal Venom, Dscopi to Coiling Ichor, Enfo to Vile Flood, Slushmania to Eternal Venom).
-"Not an enrage buff". It got past what ended most earlier pulls, Visceral Burst (16 of 25).
+`pull_summary`, "Ended by": deaths from 4:36 until half the raid was dead at 6:28; "Not an enrage buff". Deathadim, a
+tank, died at 5:13 and Wutroll, the other tank, at 6:16. The nine deaths after 6:28 are marked as fallout.
+`tank_swaps`: Wutroll held the boss alone from 5:15 and stood at Dripping Fangs 3 at 6:15; whose turn it was to taunt
+isn't in the log.
 
-How to read it: the moment that lost it is Caustic Globule at 2:58, but the raid came to it five short, so the first
-domino is at 1:20. `boss_guide` with Caustic Globule as `mechanic` says how it works; `death_recap` on the first deaths
-says whether each was a one-shot or a bleed nobody healed. The nine deaths after 3:10 are fallout. Getting past
-Visceral Burst is the night's real progress and belongs in the first line.
+Follow the chain to the first tank's death at 5:13: after it the other tank had nobody to trade with, so the 3
+stacks follow from that death and aren't a missed taunt. Why that tank died is open until `death_recap` is read.
 
-The answer: **"Best pull of the night: past the Broodling bursts for the first time, lost to Caustic Globule at 2:58
-with five already dead from 1:20."** Then the bullets: the first deaths and what each was, the Globule pulses at
-2:58-3:03, and one change, how the raid meets Caustic Globule from its first cast, since it opened and closed the wipe.
+The answer leads with the tank's death at 5:13, then the chain with its times, and one change only if the recap
+gives one. It leaves out the deaths after 6:28 and whose taunt it was.
 
-## A night: "What keeps wiping us on the Twin Fangs?"
+## A night: "Where do our healing cooldowns need to go on Entombed Sentinels?"
 
-What the tools showed (`progress`): "How the pulls ended": Visceral Burst killing many 16 of 26, Caustic Globule 5.
-The night's killer: Visceral Burst, 130 deaths, but the first death on only 3 pulls. `enemies` with `all_pulls`: the
-Broodlings of Ithraz began Visceral Burst 392 times; 309 were kicked and 66 went through.
+`healing` with `all_pulls`, the spikes that came back: at 2:17-2:26 on 4 pulls, one cooldown ready and unused in all
+4; at 1:06-1:16 on 2 pulls, one ready and unused in both; at 2:55 on 2 pulls, 14 deaths, 13 of them on pull 7 with
+two cooldowns used.
 
-How to read it: the count of what ended the pulls names the one thing to fix, and it's a cast with a cast bar, so the
-question is the kicks, not the healing (`healing` shows the Visceral Burst spikes got 2.1 healing cooldowns each and
-still cost 101 deaths). Who had a kick ready for each cast that went through is in `enemies` on one pull; whose kick
-it was, only a raid note says. The best wipe, pull 26, is the first that got past it.
+A spike that comes back with cooldowns ready and unused is a cooldown to plan: 2:17 first, then 1:06. A spike that
+kills through the cooldowns it got is a mechanic to read first, so 2:55 waits for `boss_guide` on Noxious Blast.
 
-The answer: **"Unkicked Visceral Bursts ended 16 of the 26 pulls; the one pull that got past them was the night's
-best."** Then up to three changes, the kicks first: every Broodling's cast covered, with a backup.
+The answer leads with the spike to cover and what was free for it, then the next: at most three changes, each a
+cooldown with its player and a time. It says once that the log doesn't show who was assigned. It leaves out each
+healer's numbers.
 
-## A plan: "Are our healing cooldowns in the right place on the Twin Fangs?"
+## A player: "Why does Zebinomage do more damage than me on the Twin Fangs?" (asked by Krøpling)
 
-What the tools showed (`healing` with `all_pulls`): the spikes that came back pull after pull. At 0:45-0:47, Stir the
-Depths and Toxic Fumes on 11 pulls: 0.3 healing cooldowns per spike, one ready and unused in all 11, 8 deaths. At
-0:35-0:44 and 1:41-1:48, Visceral Burst: 2.1 and 1.3 cooldowns per spike, 101 and 69 deaths. Most often ready and
-unused: Spirit Link Totem (Enfo) 33 times, Divine Hymn (Namsus) 30, Zephyr (Lïzårðmâñ) 25.
+`compare_with_top` with `against`, over the 39 pulls both were in, both Frost Mages: damage per second alive 331.90k
+against 363.58k (-9%); deaths 39 against 40. The one row marked as far apart is Frostfire Bolt: 12.3 casts a minute
+against 17.8, at about the same average hit. Shatter hits smaller, with a crit share of 47% against 55%.
 
-How to read it: a spike that comes back on time with cooldowns ready and unused is a cooldown to plan; one that kills
-through cooldowns is a mechanic to fix. The log shows what was ready, not who was assigned (that's the raid note).
+The same spec on the same pulls, per second alive, is the right comparison, and deaths are level. Shatter's smaller
+hit goes with the lower crit share, so the table doesn't show it to be a mistake in play. What is left to win back is
+the marked row: fewer casts begun, not weaker ones. `spec_guide` is read before any advice on what to cast.
 
-The answer: **"The 0:45 Stir the Depths spike gets almost nothing; the Visceral Burst spikes get the cooldowns and
-still kill, because the fix there is kicks."** Then the plan: a raid cooldown on the 0:45 spike (Spirit Link Totem or
-Divine Hymn were ready on every one of those pulls), and the Visceral Burst cooldowns kept for when the kicks fail.
+The answer leads with the size of the gap and the one difference in play. It leaves out the other spells' rows and
+doesn't rank the two players.

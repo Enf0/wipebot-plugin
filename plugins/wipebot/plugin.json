@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "wipebot",
-  "version": "0.41.1+f8d9deb4",
-  "description": "World of Warcraft raid analysis for any guild, from Warcraft Logs: why a pull wiped, how a night went, how a player did, with the method for reading them.",
+  "version": "1.0.0+c7e91f52",
+  "description": "A World of Warcraft raid assistant for any guild: why a pull wiped, how a night went, how a player did, how a boss works, with the method for reading a log.",
   "author": {
     "name": "Wipebot",
     "url": "https://wipebot.enfo.dev"
@@ -18,7 +18,7 @@
     "com.openai": {
       "interface": {
         "displayName": "Wipebot",
-        "shortDescription": "World of Warcraft raid analysis for any guild, from Warcraft Logs.",
+        "shortDescription": "A World of Warcraft raid assistant for any guild.",
         "longDescription": "Ask why a pull wiped, how a raid night went, what keeps wiping the raid, or how a player did and why their damage or healing is low. The Wipebot connector reads the reports from Warcraft Logs and computes every number in code; the raid-log-analysis skill says how to read them. Sign in with your Warcraft Logs account.",
         "developerName": "Wipebot",
         "category": "Productivity",

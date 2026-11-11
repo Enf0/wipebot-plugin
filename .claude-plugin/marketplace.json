@@ -5,13 +5,13 @@
     "url": "https://wipebot.enfo.dev"
   },
   "metadata": {
-    "description": "Wipebot, World of Warcraft raid analysis for any guild, as a Claude plugin."
+    "description": "Wipebot, a World of Warcraft raid assistant for any guild, as a Claude plugin."
   },
   "plugins": [
     {
       "name": "wipebot",
       "source": "./plugins/wipebot",
-      "description": "World of Warcraft raid analysis for any guild, from Warcraft Logs."
+      "description": "A World of Warcraft raid assistant for any guild."
     }
   ]
 }
