@@ -1,7 +1,7 @@
 {
   "name": "wipebot",
   "displayName": "Wipebot",
-  "version": "c7e91f52",
+  "version": "b09e01b7",
   "description": "A World of Warcraft raid assistant for any guild: why a pull wiped, how a night went, how a player did, how a boss works, with the method for reading a log.",
   "author": { "name": "Wipebot", "url": "https://wipebot.enfo.dev" },
   "homepage": "https://wipebot.enfo.dev",
