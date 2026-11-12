@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "wipebot",
-  "version": "1.1.0+2304d160",
+  "version": "1.2.2+deadaf44",
   "description": "A World of Warcraft raid assistant for any guild: why a pull wiped, how a night went, how a player did, how a boss works, with the method for reading a log.",
   "author": {
     "name": "Wipebot",
